@@ -13,7 +13,7 @@ class WeatherListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBar.prefersLargeTitles = true
-        
+            /*
         let resource = Resource<WeatherResponse>(url: URL(string: "https://api.openweathermap.org/data/2.5/weather?q=Houston&appid=8b0a472e6b603a9a8cdc2949130fe873")!) { data in
             
            return try? JSONDecoder().decode(WeatherResponse.self, from: data)
@@ -23,7 +23,7 @@ class WeatherListTableViewController: UITableViewController {
             if let weatherResponse = weatherResponse {
                 print(weatherResponse)
             }
-        }
+        } */
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
