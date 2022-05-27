@@ -21,6 +21,7 @@
 		F0E8A8CC283E8D82001EDA76 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8A8CB283E8D82001EDA76 /* Constants.swift */; };
 		F0E8A8CF283E8F33001EDA76 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8A8CE283E8F33001EDA76 /* String+Extensions.swift */; };
 		F0E8A8D1283E917F001EDA76 /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8A8D0283E917F001EDA76 /* WeatherListViewModel.swift */; };
+		F0E8A8D32840FDFC001EDA76 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8A8D22840FDFC001EDA76 /* Double+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		F0E8A8CB283E8D82001EDA76 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F0E8A8CE283E8F33001EDA76 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		F0E8A8D0283E917F001EDA76 /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
+		F0E8A8D22840FDFC001EDA76 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				F0E8A8CE283E8F33001EDA76 /* String+Extensions.swift */,
+				F0E8A8D22840FDFC001EDA76 /* Double+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0E8A8D32840FDFC001EDA76 /* Double+Extensions.swift in Sources */,
 				F0E8A8CF283E8F33001EDA76 /* String+Extensions.swift in Sources */,
 				F07B9D3A2836A09D0074A82C /* WeatherListTableViewController.swift in Sources */,
 				F0E8A8C9283E8D2F001EDA76 /* AddWeatherViewModel.swift in Sources */,
