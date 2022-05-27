@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             UINavigationBar.appearance().scrollEdgeAppearance = appearance
             appearance.backgroundColor = UIColor(displayP3Red: 52/255, green: 152/255, blue: 219/255, alpha: 1.0)
             appearance.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+            appearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
             UIBarButtonItem.appearance().tintColor = UIColor.white
         
         return true
