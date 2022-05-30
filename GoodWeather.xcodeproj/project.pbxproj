@@ -23,6 +23,7 @@
 		F0E8A8D1283E917F001EDA76 /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8A8D0283E917F001EDA76 /* WeatherListViewModel.swift */; };
 		F0E8A8D32840FDFC001EDA76 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8A8D22840FDFC001EDA76 /* Double+Extensions.swift */; };
 		F0E8A8D528410DBF001EDA76 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8A8D428410DBF001EDA76 /* SettingTableViewController.swift */; };
+		F0E8A8D728452A67001EDA76 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8A8D628452A67001EDA76 /* SettingsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		F0E8A8D0283E917F001EDA76 /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
 		F0E8A8D22840FDFC001EDA76 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		F0E8A8D428410DBF001EDA76 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		F0E8A8D628452A67001EDA76 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				F0E8A8C8283E8D2F001EDA76 /* AddWeatherViewModel.swift */,
 				F0E8A8D0283E917F001EDA76 /* WeatherListViewModel.swift */,
+				F0E8A8D628452A67001EDA76 /* SettingsViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				F07B9D3C2836A0CE0074A82C /* AddWeatherCityViewController.swift in Sources */,
 				F07B9D27283694750074A82C /* SceneDelegate.swift in Sources */,
 				F0E8A8CC283E8D82001EDA76 /* Constants.swift in Sources */,
+				F0E8A8D728452A67001EDA76 /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
