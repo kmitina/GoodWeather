@@ -2,7 +2,8 @@
 //  WeatherListViewModel.swift
 //  GoodWeather
 //
-//  Created by DVKSH on 25.05.22.
+//  Created by Mohammad Azam on 3/4/21.
+//  Copyright © 2021 Mohammad Azam. All rights reserved.
 //
 
 import Foundation
@@ -24,13 +25,17 @@ class WeatherListViewModel {
     }
     
     private func toCelsius() {
+        
         weatherViewModels = weatherViewModels.map { vm in
             let weatherModel = vm
             weatherModel.temperature = (weatherModel.temperature - 32) * 5/9
             return weatherModel
         }
+        
     }
+    
     private func toFahrenheit() {
+        
         weatherViewModels = weatherViewModels.map { vm in
             let weatherModel = vm
             weatherModel.temperature = (weatherModel.temperature * 9/5) + 32
@@ -40,15 +45,16 @@ class WeatherListViewModel {
     
     func updateUnit(to unit: Unit) {
         switch unit {
-        case .celsius:
-            toCelsius()
-        case .fahrenheit:
-            toFahrenheit()
+            case .celsius:
+                toCelsius()
+            case .fahrenheit:
+                toFahrenheit()
         }
     }
 }
 
 class WeatherViewModel {
+    
     let weather: WeatherResponse
     var temperature: Double
     
@@ -60,5 +66,7 @@ class WeatherViewModel {
     var city: String {
         return weather.name
     }
-
+    
 }
+
+

@@ -16,16 +16,16 @@ class WeatherListTableViewController: UITableViewController, AddWeatherDelegate 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBar.prefersLargeTitles = true
-    }
-    
-    func addWeatherDidSave(vm: WeatherViewModel) {
-        weatherListViewModel.addWeatherViewModel(vm)
-        self.tableView.reloadData()
         
         let userDefaults = UserDefaults.standard
         if let value = userDefaults.value(forKey: "unit") as? String {
             self.lastUnitSelection = Unit(rawValue: value)!
         }
+    }
+    
+    func addWeatherDidSave(vm: WeatherViewModel) {
+        weatherListViewModel.addWeatherViewModel(vm)
+        self.tableView.reloadData()
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
